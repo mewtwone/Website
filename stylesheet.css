@@ -1,0 +1,73 @@
+h1,h2,h3 {
+  color: blue;
+}
+p {
+  color: black;
+}
+.heading {
+	color: black;
+	background-color:skyblue;
+}
+/* This centers the text for all the elements using the class "centered*/
+.centered {
+	text-align: center;
+}
+/* This changes all elements with the class "underlined*/
+.underlined {
+	text-decoration: underline;
+}
+/* This changes all elements with the id "contact" - note, id's should only be used on one element */
+#contact {
+	font-style: italic;
+}
+/* changes all paragraphs in the footer works similar to class */
+footer p {
+	font-style: italic;
+}
+/* checks if h2 is immediate child of section ignores grand children */
+section > h2 {
+	background-color:yellow;
+}
+/* gives a dotted border to all <p> elements that is a direct sibling of h2 */
+h2 ~ p {
+	border-style: dotted;
+}
+/* makes the first letters font (extra large) */
+p::first-letter {
+	font-size: x-large;
+}
+/*adds the content of the 'content' variable before the text ie if h3=yes: * yes */
+h3::before {
+	content:'* ';
+	color:red;
+}
+/* First child of each list changes to green 
+Pseudo class selectors which use one (:)*/
+li:first-child {
+	color:green;
+}
+/* Only hover the class (hover) */
+.hover:hover {
+	font-size:x-large;
+	color:red;
+	background-color:lightblue;
+}
+/* hover all <p> */
+p:hover {
+	background-color:yellow;
+}
+a[title] {
+	background-color: yellow;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+}
+/*
+body h1{
+	background-color:skyblue;
+}
+*/
+
+
+

@@ -1,0 +1,11 @@
+/* set background for entire page */
+body {
+	background-image: url("dog.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll; /*scroll or fixed*/
+}
+/* set a background for an element */
+p {
+	background-image: url("dog.png");
+}
+
