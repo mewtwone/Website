@@ -1,0 +1,145 @@
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>CSS external</title>
+		<link rel="stylesheet" href="stylesheet.css"/>
+	</head>
+
+
+<hr />
+<div class="EntireSite">
+	<div class="HeadingOfPage">
+		<h1 class="heading sticky underlined">My First Heading</h1>
+		<ol>
+			<li><a href="links.html">Go to links</a></li>
+			<li><a href="2.html">Go to page 2</a></li>
+			<li><a href="3.html">Go to page 3</a></li>
+		</ol>
+		
+	
+	<div class="MainPara">
+		<p class="underlined centered">My first paragraph. underlined and centered with external css using classes</p>
+		<p id="contact"> This is a paragraph being made italic with an id reference in external css</p>
+		<div> This is div text for a test and the span is here <span> test123 </span> <---- wowoow</div>
+		<p> the tag &lt;html&gt; defines an HTML document.</p>
+		<p id="contact">
+		the character &amp;amp; displays the special characters
+		</p>
+		<h2 class="hover">this is h2</h2>
+		<p>This is a sibling to h2</p>
+		<h3> Test for before css </h3>
+
+		<a href="test.com" title="This is a test">test</a>
+	<hr />
+	
+
+	<section class="ListsTests">
+		<div class="UnorderedList">
+			<ul>
+				<li> Unordered list element 1</li>
+				<li> Unordered list element 2</li>
+				<li><a href="example.com">Example</a></li>
+			</ul>
+		</div>
+
+		<div class="OrderedList">
+			<ol>
+				<li>Ordered list element 1</li>
+				<li>Ordered list element 2</li>
+			</ol>
+		</div>
+	</section>
+	<hr />
+
+
+	<section>
+		<h1> Semantic elements title</h1>
+		<p> Description stuff </p>
+	</section>
+	<hr />
+	<footer>
+		<p>This is the footer</p>
+	</footer>
+
+
+	<hr />
+	<div class="Table"> 
+		<table border="10">
+			<tr>
+				<th>Name</th>
+				<th>Address</th>
+				<th>Phone</th>
+			</tr>
+			<tr>
+				<td>Isabel Finch</td>
+				<td>12 High Street</td>
+				<td>Canterbury</td>
+			</tr>
+			<tr>
+				<td>Morgan Howe</td>
+				<td>5 Beacon Avenue</td>
+				<td>Rochester</td>
+			</tr>
+
+		</table>
+	</div>
+
+
+	<hr>
+
+
+	<div class="Inputs">
+		<label for="age"> Age </label><br>
+		<input type="number" id="age" name ="age" placeholder="your age"/><br>
+		<hr>
+		<label for="county">Home county:</label><br>
+		<input type="radio" id="kent" name="county" value="Kent"/>
+		<label for="kent">Kent</label><br>
+		<input type="radio" id="surrey" name="county" value="Surrey"/>
+		<label for="surrey">Surrey</label><br>
+		<input type="radio" id="cornwall" name="county" value="Cornwall"/>
+		<label for="cornwall">Cornwall</label><br>
+		<hr>
+		<label for="username">Name</label><br>
+		<input type="text" id="username" name="username" placeholder="Your name"/>
+		<button id="btnStory">Tell a story</button><br>
+		<a href="links.html" target="_blank">Go to links</a>
+	</div>
+
+
+	<hr>
+
+
+	<div>
+		<p>
+		<b> bold text with &lt;b&gt;</b><br>
+		<i> italic text with &lt;i&gt;</i><br>
+		<font color="green">font</font>
+		</p>
+	</div>
+
+
+	<hr>
+
+	<div>
+		<h1> Internal CSS below <h1>
+	</div>
+	<!--
+	<style type="text/css">
+		h1 {
+			color: blue;
+		}
+	</style>
+	-->	
+	<hr>
+	<div>
+		<h1> W3 Schools extra </h1>
+		<p> Open link in new window</p>
+		<a href="dog.png" target="_blank">HTML Images</a>
+	</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>
